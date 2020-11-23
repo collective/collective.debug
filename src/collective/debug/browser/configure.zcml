@@ -6,6 +6,7 @@
 
     <browser:page 
         name="debug"
+        layer="collective.debug.interfaces.ICollectiveDebugLayer"
         permission="zope2.View"
         class=".debug.Debug"
         template="debug.pt"
