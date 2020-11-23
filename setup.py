@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='collective.debug',
-    version='1.0a1',
+    version='1.0a2',
     description="A Plone debug view for introspecting the current context, user, roles and instance dict",
     long_description=long_description,
     # Get more from https://pypi.org/classifiers/
