@@ -6,7 +6,7 @@
 collective.debug
 ================
 
-collective.debug provide a ``@debug`` view for analyzing and debugging purposes.
+collective.debug provide a ``@@debug`` view for analyzing and debugging purposes.
 
 Warning
 --------
@@ -43,7 +43,6 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/collective.debug/issues
 - Source Code: https://github.com/collective/collective.debug
-- Documentation: https://docs.plone.org/foo/bar
 
 
 License
