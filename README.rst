@@ -11,8 +11,11 @@ collective.debug provide a ``@@debug`` view for analyzing and debugging purposes
 Warning
 --------
 
-Use this add-on with care because it may expose unwanted information. Use it
-for debugging and analyzing purposes only. Do not use it production.
+- Use this add-on with care because it may expose unwanted or unwanted information. 
+
+- Use it with care for debugging and analyzing purposes only. 
+
+- Do not use it production.
 
 
 Installation
