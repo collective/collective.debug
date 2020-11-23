@@ -28,33 +28,13 @@
 collective.debug
 ================
 
-Tell me what your product does
+collective.debug provide a ``@debug`` view for analyzing and debugging purposes.
 
-Features
+Warning
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+Use this add-on with care because it may expose unwanted information. Use it
+for debugging and analyzing purposes only. Do not use it production.
 
 
 Installation
@@ -72,6 +52,13 @@ Install collective.debug by adding it to your buildout::
 
 and then running ``bin/buildout``
 
+Usage
+-----
+
+This add-on provides a ``@@debug`` browser view that returns some debugging information
+on the current context object, the current user and its roles, the instance dict of the
+current context object and request information.
+
 
 Contribute
 ----------
@@ -81,14 +68,12 @@ Contribute
 - Documentation: https://docs.plone.org/foo/bar
 
 
-Support
--------
-
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
-
-
 License
 -------
 
 The project is licensed under the GPLv2.
+
+Author
+------
+
+Andreas Jung (info@zopyx.com)
