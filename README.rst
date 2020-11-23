@@ -2,28 +2,6 @@
    If you want to learn more about writing documentation, please check out: http://docs.plone.org/about/documentation_styleguide.html
    This text does not appear on pypi or github. It is a comment.
 
-.. image:: https://travis-ci.org/collective/collective.debug.svg?branch=master
-    :target: https://travis-ci.org/collective/collective.debug
-
-.. image:: https://coveralls.io/repos/github/collective/collective.debug/badge.svg?branch=master
-    :target: https://coveralls.io/github/collective/collective.debug?branch=master
-    :alt: Coveralls
-
-.. image:: https://img.shields.io/pypi/v/collective.debug.svg
-    :target: https://pypi.python.org/pypi/collective.debug/
-    :alt: Latest Version
-
-.. image:: https://img.shields.io/pypi/status/collective.debug.svg
-    :target: https://pypi.python.org/pypi/collective.debug
-    :alt: Egg Status
-
-.. image:: https://img.shields.io/pypi/pyversions/collective.debug.svg?style=plastic   :alt: Supported - Python Versions
-
-.. image:: https://img.shields.io/pypi/l/collective.debug.svg
-    :target: https://pypi.python.org/pypi/collective.debug/
-    :alt: License
-
-
 ================
 collective.debug
 ================
